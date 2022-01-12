@@ -6,7 +6,11 @@ function App() {
   return (
    <div>
      <div>
-    MY GALLERY
+       <center>
+       MY GALLERY
+       
+       </center>
+   
     <div>
   
     </div>
@@ -16,13 +20,13 @@ function App() {
      </div>
      <center>
  <img src={imag1} 
-   style ={{width:'200px', borderRadius:'50%'}} />
+   style ={{width:'300px', borderRadius:'50%'}} />
      </center>
 
-  <right>
+  <center>
 
     THANK YOU 
-  </right>
+  </center>
    
 
    </div>
