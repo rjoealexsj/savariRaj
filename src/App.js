@@ -6,10 +6,8 @@ function App() {
   return (
    <div>
      <div>
-       <h1>
+       <h1 style={{color:'blue', fontSize:'40px'}}>
        MY GALLERY 1
-       
-       
        </h1>
       
    
@@ -19,24 +17,28 @@ function App() {
      </div>
      
  <img src={imag1} 
-   style ={{width:'100px',}} />
+   style={{width:'100px',border:'5px solid blue'}} />
    <br/> 
    
    <div style={{textAlign:'center'}}>
+    <h2 style={{color:'red'}}>
     MY GALLERY2
+      </h2>
     <br/>
    <img src={imag2} 
-   style ={{width:'200px', borderRadius:'50%'}} />
+   style ={{width:'200px', borderRadius:'50%', border:'5px solid red'}} />
   
    </div>
    <div style={{textAlign:'right'}}>
-    MY GALLERY2
+     <h3 style={{color:'yellow'}}>
+     MY GALLERY3
+     </h3>
     <br/>
    <img src={imag2} 
-   style ={{width:'300px', borderRadius:'20%'}} />
-  
+   style ={{width:'300px', borderRadius:'20%', border:'6px solid yellow'}} />
+
    </div>
-<h5>
+<h5 style={{color:'blue', fontSize:'120px'}}>
 <center>
    THANK YOU 
   </center>
