@@ -7,10 +7,9 @@ function App() {
    <div>
      <div>
        <h1>
-       <center>
-       MY GALLERY
+       MY GALLERY 1
        
-       </center>
+       
        </h1>
       
    
@@ -18,12 +17,25 @@ function App() {
   
     </div>
      </div>
-     <center>
+     
  <img src={imag1} 
-   style ={{width:'300px', borderRadius:'50%'}} />
-     </center>
-     <img src={imag2} 
-   style ={{width:'300px', borderRadius:'50%'}} />
+   style ={{width:'100px',}} />
+   <br/> 
+   
+   <div style={{textAlign:'center'}}>
+    MY GALLERY2
+    <br/>
+   <img src={imag2} 
+   style ={{width:'200px', borderRadius:'50%'}} />
+  
+   </div>
+   <div style={{textAlign:'right'}}>
+    MY GALLERY2
+    <br/>
+   <img src={imag2} 
+   style ={{width:'300px', borderRadius:'20%'}} />
+  
+   </div>
 <h5>
 <center>
    THANK YOU 
