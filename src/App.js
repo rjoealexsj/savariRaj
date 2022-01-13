@@ -6,7 +6,7 @@ function App() {
   return (
    <div>
      <div>
-       <h1 style={{color:'blue', fontSize:'40px'}}>
+       <h1 style={{color:'blue', fontSize:'40px', background:'yellow'}}>
        MY GALLERY 1
        </h1>
       
@@ -21,7 +21,7 @@ function App() {
    <br/> 
    
    <div style={{textAlign:'center'}}>
-    <h2 style={{color:'red'}}>
+    <h2 style={{color:'red', background:'green'}}>
     MY GALLERY2
       </h2>
     <br/>
@@ -30,7 +30,7 @@ function App() {
   
    </div>
    <div style={{textAlign:'right'}}>
-     <h3 style={{color:'yellow'}}>
+     <h3 style={{color:'yellow', fontSize: '30px', background:'pink'}}>
      MY GALLERY3
      </h3>
     <br/>
