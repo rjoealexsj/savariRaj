@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import imag1 from '../src/images/IMG1.jpg'
 import imag2 from '../src/images/IMG.jpg'
+import imag3 from '../src/images/IMG2.jpg'
 function App() {
   return (
    <div>
@@ -34,7 +35,7 @@ function App() {
      MY GALLERY3
      </h3>
     <br/>
-   <img src={imag2} 
+   <img src={imag3} 
    style ={{width:'300px', borderRadius:'20%', border:'6px solid yellow'}} />
 
    </div>
