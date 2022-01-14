@@ -23,14 +23,10 @@ export default class IDNavbar extends Component {
       >
         <NavItem>
           <NavLink href="/components/">
-            Components
+            STAFF
           </NavLink>
         </NavItem>
-        <NavItem>
-          <NavLink href="https://github.com/reactstrap/reactstrap">
-            GitHub
-          </NavLink>
-        </NavItem>
+        
         <UncontrolledDropdown
           inNavbar
           nav
@@ -39,21 +35,27 @@ export default class IDNavbar extends Component {
             caret
             nav
           >
-            Options
+            STUDENTS
           </DropdownToggle>
           <DropdownMenu right>
             <DropdownItem>
-              Option 1
+              FIRST YEAR
             </DropdownItem>
             <DropdownItem>
-              Option 2
+              SECOND YEAR
             </DropdownItem>
             <DropdownItem divider />
             <DropdownItem>
-              Reset
+              THIRD YEAR
             </DropdownItem>
           </DropdownMenu>
         </UncontrolledDropdown>
+        <NavItem>
+          <NavLink href="https://github.com/reactstrap/reactstrap">
+          PORTFOLIOS
+          </NavLink>
+        </NavItem>
+      
       </Nav>
       <NavbarText>
         Simple Text
