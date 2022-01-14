@@ -5,7 +5,7 @@ export default class Home extends Component {
         return (
             <div>
                  <div className='text-center p-4 bg-primary'>
-      <h1 style={{color:'red'}}>Vidyajyoti Jesuit Residence </h1>     
+      <h1 style={{color:'red'}}> Jesuit Residence </h1>     
     </div>
     <FormGroup style={{overflow:"visible", paddingTop:'50px'}}>
     <Row style={{marginBottom:'20px'}}>

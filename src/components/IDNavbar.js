@@ -13,7 +13,7 @@ export default class IDNavbar extends Component {
     full
   >
     <NavbarBrand href="/">
-      reactstrap
+      VJ
     </NavbarBrand>
     <NavbarToggler onClick={function noRefCheck(){}} />
     <Collapse navbar>
