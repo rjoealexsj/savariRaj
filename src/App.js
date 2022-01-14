@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import './css/bootstrap.min.css';
 import IDNavbar from './components/IDNavbar.js';
 import Home from './components/Home';
+
 import { Col, FormGroup, Input, Label, Row} from 'reactstrap';
 
 function App() {
