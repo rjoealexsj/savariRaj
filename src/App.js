@@ -1,52 +1,85 @@
 import logo from './logo.svg';
 import './App.css';
-import imag1 from '../src/images/IMG1.jpg'
-import imag2 from '../src/images/IMG.jpg'
-import imag3 from '../src/images/IMG2.jpg'
+import IDNavbar from './components/IDNavbar.js';
+import Home from './components/Home';
+import { Col, FormGroup, Input, Label, Row} from 'reactstrap';
+
 function App() {
   return (
-   <div>
-     <div>
-       <h1 style={{color:'blue', fontSize:'40px', background:'yellow'}}>
-       MY GALLERY 1
-       </h1>
-      
-   
-    <div>
-  
+  <div className='container' style={{paddingTop:'50px'}}>
+    <div className='text-center p-4 bg-primary'>
+      <h1 style={{color:'white'}}>Vidyajyoti Jesuit Residence </h1>     
     </div>
-     </div>
-     
- <img src={imag1} 
-   style={{width:'100px',border:'5px solid blue'}} />
-   <br/> 
-   
-   <div style={{textAlign:'center'}}>
-    <h2 style={{color:'red', background:'green'}}>
-    MY GALLERY2
-      </h2>
-    <br/>
-   <img src={imag2} 
-   style ={{width:'200px', borderRadius:'50%', border:'5px solid red'}} />
-  
-   </div>
-   <div style={{textAlign:'right'}}>
-     <h3 style={{color:'yellow', fontSize: '30px', background:'pink'}}>
-     MY GALLERY3
-     </h3>
-    <br/>
-   <img src={imag3} 
-   style ={{width:'300px', borderRadius:'20%', border:'6px solid yellow'}} />
+    <FormGroup style={{overflow:"visible", paddingTop:'50px'}}>
+    <Row style={{marginBottom:'20px'}}>
+    
+    <Col xs={3} lg={2}>
+    <Label for="usernameL">Name</Label>
+    </Col>
+    <Col xs={9} lg={4}>
+    <Input type="text" placeholder='Enter Your Name' value="" />
+    </Col>
+    <Col xs={3} lg={2}>
+    <Label for="usernameL">Password</Label>
+    </Col>
+    <Col xs={9} lg={4}>
+    <Input type="password" placeholder='Enter Your Password' value="" />
+    </Col>
 
-   </div>
-<h5 style={{color:'blue', fontSize:'120px'}}>
-<center>
-   THANK YOU 
-  </center>
-</h5>
-  
-   </div>
+    </Row>
 
+    <Row style={{marginBottom:'20px'}}>
+
+    <Col xs={3} lg={2}>
+   <Label for="usernameL">Email</Label>
+   </Col>
+   <Col xs={9} lg={4}>
+   <Input type="text" placeholder='Enter Your Email' value="" />
+   </Col>
+   <Col xs={3} lg={2}>
+   <Label for="usernameL">Phone Number</Label>
+    </Col>
+    <Col xs={9} lg={4}>
+    <Input type="text" placeholder='Enter Your Phone Number' value="" />
+    </Col>>
+    </Row>
+
+<Row style={{marginBottom:'20px'}}>
+<Col xs={3} lg={2}>
+    <Label for="Province">Province</Label>
+    </Col>
+    <Col xs={9} lg={4}>
+    <Input type="text" placeholder='Enter Your Province' value="" />
+    </Col>
+    <Col xs={3} lg={2}>
+    <Label for="dob">Date of Birth'</Label>
+    </Col>
+    <Col xs={9} lg={4}>
+    <Input type="text" placeholder='Enter Your Date of Birth' value="" /> 
+      </Col>
+</Row>
+
+<Row style={{marginBottom:'20px'}}>
+<Col xs={3} lg={2}>
+    <Label for="Blood">Blood Group</Label>
+    </Col>
+    <Col xs={9} lg={4}>
+    <Input type="text" placeholder='Enter Your Blood Group' value="" />
+    </Col>
+    <Col xs={3} lg={2}>
+    <Label for="roomno">Room No'</Label>
+    </Col>
+    <Col xs={9} lg={4}>
+    <Input type="text" placeholder='Enter Your Room No' value="" /> 
+      </Col>
+</Row>
+
+</FormGroup>
+<div className='text-center'>
+<button className='btn' style={{border:'2px solid blue'}}>Submit</button>
+</div>
+
+</div>
   );
 }
 
