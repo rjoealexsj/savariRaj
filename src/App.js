@@ -5,16 +5,17 @@ import IDNavbar from './components/IDNavbar.js';
 
 
 
-import Home from './components/Home';
+import Homenew from './components/Homenew';
 
 function App() {
   return (
   <div className='container' style={{paddingTop:'50px'}}>
-  <IDNavbar/>
+  {/*
+  <IDNavbar/>*/}
 
 
 
-   <Home />
+   <Homenew />
 </div>
   );
 }
