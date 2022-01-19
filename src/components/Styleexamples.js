@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import imag1 from '../src/images/IMG1.jpg'
-import imag2 from '../src/images/IMG.jpg'
-import imag3 from '../src/images/IMG2.jpg'
+import imag1 from '../images/IMG1.jpg'
+import imag2 from '../images/IMG.jpg'
+import imag3 from '../images/IMG2.jpg'
 
 export default class Styleexamples extends Component {
     render() {
@@ -20,7 +20,7 @@ export default class Styleexamples extends Component {
      </div>
      
  <img src={imag1} 
-   style={{width:'100px',border:'5px solid blue', borderTopColor:'yellowgreen', borderTopRightRadius:'5px', borderSpacing:'10'}} />
+   style={{width:'100px',border:'5px solid blue', borderTopColor:'yellowgreen', borderTopRightRadius:'5px', borderSpacing:'normal'}} />
    <br/> 
    
    <div style={{textAlign:'center'}}>
