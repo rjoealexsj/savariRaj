@@ -2,10 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import IDNavbar from './components/IDNavbar.js';
-
-
-
 import Homenew from './components/Homenew';
+import Styleexamples  from './components/Styleexamples';
 
 function App() {
   return (
@@ -14,8 +12,10 @@ function App() {
   <IDNavbar/>*/}
 
 
+{/*
+   <Homenew />*/}
+   <Styleexamples/>
 
-   <Homenew />
 </div>
   );
 }
